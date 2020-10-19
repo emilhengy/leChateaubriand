@@ -1,0 +1,211 @@
+body{
+    font-family: Arial, Helvetica, sansserif;
+    font-size:15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color:#123C69;
+}
+/*global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+/* section 1/ showcase */
+#showcase{
+    min-height: 500px;
+    background: url("../Images/restaurant1.jpg");
+    text-align: center;
+    height: auto; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-blend-mode: overlay;
+    
+    
+}
+
+#showcase h1{
+    margin-top: :100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: #EEE2DC;
+    padding-top:100px;
+    margin-bottom: 0px;
+      
+}
+
+#showcase p{
+    font-size:35px;
+    color: #EEE2DC;
+    font-weight: bold;
+ 
+    
+}
+/* section 2/ aboutUS */
+
+#aboutUs{
+    min-height: 500px;
+    height: auto;
+    background-color:#123C69;
+    text-align: center; 
+    padding-left: 15%;
+    padding-right: 15%;
+    color:#EEE2DC;
+}
+
+#aboutUs h1{
+    padding-top: 30px;
+    font-size: 45px;
+    color: #EEE2DC; 
+    border:10px;
+    border-color: #EEE2DC;
+    outline: 10px;
+    outline-color: #EEE2DC
+}
+
+#aboutUs p{
+    padding: auto;
+    font-size: 25px;
+    color:#EEE2DC;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+/* section 3/ menu */
+#boxes{
+    min-height: 400px;
+    text-align: center;
+    height: auto; 
+    background-color:white; 
+    margin-bottom: 0px;
+    padding-bottom: 80px;
+    color:#AC3B61;
+}
+
+#boxes h3{
+    margin-top: :100px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #AC3B61;
+    padding-bottom:0px;
+    margin-bottom: 0px;  
+    text-align: center;
+}
+#boxes h4{
+    margin-top: :100px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #AC3B61;
+    padding-bottom:0px;
+    margin-bottom: 0px;    
+    
+}
+/* section 4/ contact info */
+
+#contactInfo{
+    min-height: 400px;
+    height: auto; 
+    color:#EEE2DC;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 60px;
+    background-color:#123C69;
+    text-align: center;
+}
+    
+/*list and table configuration*/
+table {
+  border-collapse: collapse;
+  background-color:#123C69;
+color: #EEE2DC;
+  width: 100%;
+    
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  
+  font-size: 20px;    
+  border-bottom: 1px solid #ddd;
+    list-style-type: none;
+    
+}
+
+ul {
+  
+  padding: 20px;
+    color: #AC3B61;
+    list-style-type: none;
+
+}
+ul li {
+  margin: 5px;
+  list-style-type: none;
+  text-align: center;    
+  font-size: 20px;
+  padding-top: auto;
+    
+
+}
+ol {
+  
+  padding: 20px;
+    color: #EEE2DC;
+    list-style-type: none;
+    float: left;
+    padding-left: 5%;
+
+}
+ol li {
+  margin: 5px;
+  list-style-type: none;
+  text-align: left;    
+  font-size: 20px;
+  padding-top: auto;
+      
+}
+
+/* configuration of google maps*/
+.map-responsive{
+    float: right;
+}
+.map-responsive iframe{
+    height:40%;
+    position: static;
+    padding-right: 5%;
+}
+
+/* section 5/ the footnote */
+#footer{
+    min-height: 50px;
+    text-align: center;
+    height: auto; 
+    background-color: #123C69; 
+    color:#EEE2DC;
+}
+
+/* button configuration*/
+.btn {
+  border: none;
+  background-color:#123C69 ;
+  padding-left: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+
+}
+
+
+.btn{
+    color: #EEE2DC;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
